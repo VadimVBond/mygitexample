@@ -1,9 +1,7 @@
 /*-----------------------------------------------------------------------------------
-Template Name: Classic One Page Template,
-Template URI: http://www.quomodotheme.com
-Description: This is html5 template
-Author: Ashekur Rahman
-Author URI: http://www.quomodotheme.com
+Template Name: One Page
+Description: This is html5+CSS+JS 
+Author:Vadim Bondarenko 
 Version: 1.0
 -----------------------------------------------------------------------------------
 CSS INDEX
@@ -32,6 +30,7 @@ CSS INDEX
 22. Testimonials
 23. Contact-Area
 -----------------------------------------------------------------------------------*/
+
 
 /*-----------------
 1. Google font
@@ -64,7 +63,6 @@ a {
     transition: 0.4s;
     color: #898989;
 }
-
 
 input:focus,
 button:focus,
@@ -109,6 +107,7 @@ input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
     outline: none;
 }
+
 
 /*-- 3. Helper-Class --*/
 
@@ -172,6 +171,7 @@ input:-webkit-autofill:focus {
     padding: 12px;
 }
 
+
 /*-- 4. Button-Style --*/
 
 .bttn {
@@ -196,7 +196,7 @@ input:-webkit-autofill:focus {
     background: #800080;
     background: -webkit-gradient(linear, left top, right top, from(#800080), to(#ffc0cb));
     background: linear-gradient(to right, #800080 0%, #ffc0cb 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
     -webkit-box-shadow: 0 2px 0 0 rgba(128, 0, 128, 0.5), 0 4px 0 0 rgba(128, 0, 128, 0.5);
     box-shadow: 0 2px 0 0 rgba(128, 0, 128, 0.5), 0 4px 0 0 rgba(128, 0, 128, 0.5);
 }
@@ -215,13 +215,10 @@ input:-webkit-autofill:focus {
     box-shadow: 0 5px 0 0 rgba(189, 189, 189, 0.5), 0 10px 0 0 rgba(189, 189, 189, 0.5);
 }
 
-
 .bttn.bttn-primary:hover {
     -webkit-box-shadow: 0 5px 0 0 rgba(128, 0, 128, 0.5), 0 10px 0 0 rgba(128, 0, 128, 0.5);
     box-shadow: 0 5px 0 0 rgba(128, 0, 128, 0.5), 0 10px 0 0 rgba(128, 0, 128, 0.5);
 }
-
-
 
 
 /*-- 5. Mainmenu-Area --*/
@@ -263,7 +260,6 @@ input:-webkit-autofill:focus {
     border-bottom: 2px solid #ffffff;
 }
 
-
 .mainmenu-area #mainmenu ul.nav.navbar-nav li.select-cuntry select {
     background: none;
     border: none;
@@ -285,7 +281,6 @@ input:-webkit-autofill:focus {
     width: 100%;
 }
 
-
 @-webkit-keyframes downup {
     from {
         bottom: 60px
@@ -294,7 +289,6 @@ input:-webkit-autofill:focus {
         bottom: 40px
     }
 }
-
 
 @keyframes downup {
     from {
@@ -317,6 +311,7 @@ a.scrolldown {
     -webkit-animation: downup 0.8s ease 0.3s infinite alternate;
     animation: downup 0.8s ease 0.3s infinite alternate;
 }
+
 
 /*-- 6. Header-Area --*/
 
@@ -343,7 +338,7 @@ a.scrolldown {
     background: #800080;
     background: -webkit-gradient(linear, left top, right top, from(#800080), to(#ffc0cb));
     background: linear-gradient(to right, #800080 0%, #ffc0cb 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
     opacity: 0.8;
 }
 
@@ -368,7 +363,7 @@ a.scrolldown {
     background: #800080;
     background: -webkit-gradient(linear, left top, right top, from(#800080), to(#ffc0cb));
     background: linear-gradient(to right, #800080 0%, #ffc0cb 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
 }
 
 .header-area .header-text {
@@ -380,6 +375,7 @@ a.scrolldown {
     display: block;
     margin-bottom: 50px;
 }
+
 
 /*-- 7. Vdieo-Box --*/
 
@@ -394,6 +390,7 @@ a.scrolldown {
     -webkit-transform: translate(-50%);
     transform: translate(-50%);
 }
+
 
 /*-- 8. Tabs-list --*/
 
@@ -436,8 +433,9 @@ a.scrolldown {
     background: #800080;
     background: -webkit-gradient(linear, left top, right top, from(#800080), to(#ffc0cb));
     background: linear-gradient(to right, #800080 0%, #ffc0cb 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
 }
+
 
 /*-- 9. Feature-Box --*/
 
@@ -493,6 +491,7 @@ a.scrolldown {
     transform: translate(3px, 3px);
 }
 
+
 /*-- 10.Easy Pie Chart --*/
 
 .skills .skill {
@@ -504,7 +503,7 @@ a.scrolldown {
     position: relative;
 }
 
-.skills .skill .chart > span {
+.skills .skill .chart>span {
     position: absolute;
     left: 50%;
     top: 27%;
@@ -517,6 +516,7 @@ a.scrolldown {
     content: "%";
 }
 
+
 /*-- 11. Filter-Controls --*/
 
 .filter-controls {
@@ -525,7 +525,6 @@ a.scrolldown {
     padding: 0;
     margin-bottom: 30px;
 }
-
 
 .filter-controls li {
     display: inline-block;
@@ -554,7 +553,7 @@ a.scrolldown {
     background: #800080;
     background: -webkit-gradient(linear, left top, right top, from(#800080), to(#ffc0cb));
     background: linear-gradient(to right, #800080 0%, #ffc0cb 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
     -webkit-transition: 0.3s;
     transition: 0.3s;
     opacity: 0;
@@ -575,6 +574,7 @@ a.scrolldown {
     margin: 0;
     padding: 0;
 }
+
 
 /*-- 12. FIlter-Box --*/
 
@@ -633,7 +633,7 @@ a.scrolldown {
     background: #ffc0cb;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #ffc0cb), to(#800080));
     background: linear-gradient(to bottom, #ffc0cb 1%, #800080 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc0cb', endColorstr='#800080', GradientType=0);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffc0cb', endColorstr='#800080', GradientType=0);
     opacity: 0.6;
     z-index: -1;
 }
@@ -671,6 +671,7 @@ a.scrolldown {
 .filter-box .filter-hover img {
     width: 100%;
 }
+
 
 /*-- 13. Team-Area --*/
 
@@ -752,7 +753,6 @@ a.scrolldown {
     margin-bottom: 20px;
 }
 
-
 .team-hover:before {
     content: '';
     position: absolute;
@@ -763,7 +763,7 @@ a.scrolldown {
     background: #ffc0cb;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #ffc0cb), to(#800080));
     background: linear-gradient(to bottom, #ffc0cb 1%, #800080 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc0cb', endColorstr='#800080', GradientType=0);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffc0cb', endColorstr='#800080', GradientType=0);
     z-index: -1;
     opacity: 0.9;
 }
@@ -945,7 +945,7 @@ a.scrolldown {
     background: #800080;
     background: -webkit-gradient(linear, left top, right top, from(#800080), to(#ffc0cb));
     background: linear-gradient(to right, #800080 0%, #ffc0cb 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
     z-index: -1;
     opacity: 0;
     -webkit-transition: 0.3s;
@@ -961,6 +961,7 @@ a.scrolldown {
     box-shadow: 0 5px 0 0 rgba(128, 0, 128, 0.5), 0 10px 0 0 rgba(128, 0, 128, 0.5);
 }
 
+
 /*-- 15. Blog-Area --*/
 
 .blog-box {
@@ -974,7 +975,7 @@ a.scrolldown {
     background: #800080;
     background: -webkit-gradient(linear, left top, right top, from(#800080), to(#ffc0cb));
     background: linear-gradient(to right, #800080 0%, #ffc0cb 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
 }
 
 .blog-box .blog-image img {
@@ -1026,14 +1027,11 @@ a.scrolldown {
     font-size: 50px;
 }
 
-
 .count-box .count_title {
     display: block;
     font-size: 18px;
     color: #ffffff;
 }
-
-
 
 .count-box .count {
     font-size: 30px;
@@ -1052,6 +1050,7 @@ a.scrolldown {
     height: 2px;
     background-color: #ffffff;
 }
+
 
 /*-- 17. Footer-Area --*/
 
@@ -1082,6 +1081,7 @@ a.scrolldown {
     padding: 30px;
 }
 
+
 /*-- 18. Preloader --*/
 
 .preloader {
@@ -1093,7 +1093,7 @@ a.scrolldown {
     background: #800080;
     background: -webkit-gradient(linear, left top, right top, from(#800080), to(#ffc0cb));
     background: linear-gradient(to right, #800080 0%, #ffc0cb 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
     z-index: 999999;
 }
 
@@ -1137,6 +1137,7 @@ a.scrolldown {
     }
 }
 
+
 /*-- 19. Accordion-style --*/
 
 .accordion1 .panel {
@@ -1166,7 +1167,7 @@ a.scrolldown {
     background: #800080;
     background: -webkit-gradient(linear, left top, right top, from(#800080), to(#ffc0cb));
     background: linear-gradient(to right, #800080 0%, #ffc0cb 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
 }
 
 .accordion1 .panel a:after {
@@ -1192,6 +1193,7 @@ a.scrolldown {
     border: 1px solid #e2e2e2;
     border-top: none;
 }
+
 
 /*-- 20. Service-Box-Style --*/
 
@@ -1239,6 +1241,7 @@ a.scrolldown {
     padding: 0 20px;
 }
 
+
 /*-- 21. process-area --*/
 
 .process {
@@ -1264,6 +1267,7 @@ a.scrolldown {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 /*-- 22. Testimonials --*/
 
@@ -1309,7 +1313,7 @@ a.scrolldown {
     text-align: center;
 }
 
-.owl-controls .owl-nav > div {
+.owl-controls .owl-nav>div {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -1321,7 +1325,7 @@ a.scrolldown {
     color: #969696;
 }
 
-.testimonials .owl-controls .owl-nav > div {
+.testimonials .owl-controls .owl-nav>div {
     position: absolute;
     left: -25px;
     top: 50%;
@@ -1329,10 +1333,11 @@ a.scrolldown {
     transform: translateY(-100%);
 }
 
-.testimonials .owl-controls .owl-nav > div.owl-next {
+.testimonials .owl-controls .owl-nav>div.owl-next {
     left: auto;
     right: -25px;
 }
+
 
 /*-- 23. Contact-Area --*/
 
@@ -1397,7 +1402,7 @@ a.scrolldown {
     background: #800080;
     background: -webkit-gradient(linear, left top, right top, from(#800080), to(#ffc0cb));
     background: linear-gradient(to right, #800080 0%, #ffc0cb 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#800080', endColorstr='#ffc0cb', GradientType=1);
     border-radius: 3px;
 }
 
@@ -1407,7 +1412,6 @@ a.scrolldown {
     padding: 0;
     margin-bottom: 60px;
 }
-
 
 .contact-info .info li {
     margin-bottom: 30px;
