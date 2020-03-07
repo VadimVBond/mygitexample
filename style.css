@@ -1278,7 +1278,7 @@ a.scrolldown {
 }
 
 .single-process .process-icon i.icofont {
-    background: -webkit-linear-gradient(#a1c4fd, #c2e9fb);
+    background: -webkit-linear-gradient(#f9f9fa, #c2e9fb);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
