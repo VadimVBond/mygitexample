@@ -68,11 +68,10 @@
                 <a href="#search-box" data-toggle="collapse"><i class="icofont icofont-search-alt-2"></i></a>
               </li>
               <li class="select-cuntry">
-                <select name="counter" id="counter">
-                  <option value="ENG"><a href="index.html">EN</a></option>
-                  <a href="indexru.html"></a>
-                  <option value="BEN">RU</option></a>
-                  <option value="ARA"><a href="indexua.html">UA</a></option>
+                <select onchange="window.location.href = this.options[this.selectedIndex].value" name="counter" id="counter">
+                  <option value="index.html">EN</option>
+                  <option value="indexua.html">UA</option>
+                  <option value="indexru.html">RU</option></a>
                 </select>
               </li>
             </ul>
@@ -100,10 +99,10 @@
           <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
             <div class="header-text">
               <div class="wow fadeInUp upper latter-space" data-wow-delay="0.2s">
-                Сайт в разработке
+                THE WEBSITE IS UNDER CONSTRUCTION
               </div>
               <h2 class="header-title wow fadeInUp upper" data-wow-delay="0.4s">
-                Портфолио веб-разработчика<span class="dot"></span>
+                PORTFOLIO WEB - DEVELOPER<span class="dot"></span>
               </h2>
               <div class="wow fadeInUp" data-wow-delay="0.7s">
                 <a href="#" class="bttn bttn-lg bttn-primary">Contact Now</a>
@@ -125,124 +124,144 @@
       <div class="row">
         <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
           <div class="page-title text-center">
-            <h2 class="title">Portfolio</h2>
+            <h2 class="title">Briefly about this site</h2>
             <p>
-              There are many variations of passages of Lorem Ipsum available.
+              This site was created to represent my experience with GitHub
+            </p>
+            <p>
+              Translation of the site into other languages is not complete and will be improved as far as possible
+            </p>
+            <p>
+              For acquaintance with my other works, see the site at
             </p>
           </div>
+          <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="wow fadeInUp" data-wow-delay="0.7s">
+                <a href="http://vvebdes.pp.ua/pfsm/" class="bttn bttn-lg bttn-primary">HTML+CSS+YS</a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="wow fadeInUp" data-wow-delay="0.7s">
+                <a href="http://vvebdes.pp.ua/" class="bttn bttn-lg bttn-primary">Wordpress</a>
+              </div>
+            </div>
           <div class="page-title text-center">
-            <h2 class="title">Portfolio Project</h2>
+            <h2 class="title">Portfolio of my works</h2>
             <p>
-              There are many variations of passages of Lorem Ipsum available.
+              Here are examples of my work in various directions
             </p>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <!-- Mixitup controls -->
-          <ul class="filter-controls text-center">
-            <li class="active filter" data-filter="all">All</li>
-            <li class="active filter" data-filter=".graphics">Graphics</li>
-            <li class="filter" data-filter=".ux_ui">UI/UX</li>
-            <li class="filter" data-filter=".web_design">Web Design</li>
-            <li class="filter" data-filter=".coding">Coding</li>
-            <li class="filter" data-filter=".developing">Developing</li>
-            <li class="filter" data-filter=".photography">Photography</li>
-          </ul>
+       <div class="row">
+    <div class="col-xs-12">
+      <!-- Mixitup controls -->
+      <ul class="filter-controls text-center">
+        <li class="active filter" data-filter="all">All</li>
+        <li class="filter" data-filter=".html_css_ys">HTML+CSS+YS</li>
+        <li class="active filter" data-filter=".graphics">
+          Graphics and design
+        </li>
+        <li class="filter" data-filter=".wordpress">WordPress</li>
+        <li class="filter" data-filter=".yoomla">Joomla</li>
+        <li class="filter" data-filter=".ux_ui">UI/UX</li>
+        <li class="filter" data-filter=".coding">Coding</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row" id="filtering">
+    <div class="col-xs-6 col-sm-4 col-md-3 mix html_css_ys coding">
+      <div class="filter-box">
+        <div class="filter-image">
+          <img src="images/portfolio/html2_cr.png" alt="HTML+CSS+YS" />
         </div>
-      </div>
-      <div class="row" id="filtering">
-        <div class="col-xs-6 col-sm-4 col-md-3 mix graphics developing">
-          <div class="filter-box">
-            <div class="filter-image">
-              <img src="images/work-1.jpg" alt="" />
-            </div>
-            <div class="filter-hover">
-              <h5>Print Template</h5>
-              <a href="images/work-1.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-3 mix ux_ui ">
-          <div class="filter-box">
-            <div class="filter-image">
-              <img src="images/work-2.jpg" alt="" />
-            </div>
-            <div class="filter-hover">
-              <h5>Graphics Template</h5>
-              <a href="images/work-2.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-3 mix graphics ">
-          <div class="filter-box">
-            <div class="filter-image">
-              <img src="images/work-3.jpg" alt="" />
-            </div>
-            <div class="filter-hover">
-              <h5>Web Template</h5>
-              <a href="images/work-3.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-3 mix ux_ui developing">
-          <div class="filter-box">
-            <div class="filter-image">
-              <img src="images/work-4.jpg" alt="" />
-            </div>
-            <div class="filter-hover">
-              <h5>Developing</h5>
-              <a href="images/work-4.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-3 mix web_design photography">
-          <div class="filter-box">
-            <div class="filter-image">
-              <img src="images/work-5.jpg" alt="" />
-            </div>
-            <div class="filter-hover">
-              <h5>Photography</h5>
-              <a href="images/work-5.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-3 mix coding">
-          <div class="filter-box">
-            <div class="filter-image">
-              <img src="images/work-6.jpg" alt="" />
-            </div>
-            <div class="filter-hover">
-              <h5>Coding</h5>
-              <a href="images/work-6.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-3 mix web_design developing">
-          <div class="filter-box">
-            <div class="filter-image">
-              <img src="images/work-7.jpg" alt="" />
-            </div>
-            <div class="filter-hover">
-              <h5>Web Desing</h5>
-              <a href="images/work-7.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-3 mix coding photography">
-          <div class="filter-box">
-            <div class="filter-image">
-              <img src="images/work-8.jpg" alt="" />
-            </div>
-            <div class="filter-hover">
-              <h5>Coding</h5>
-              <a href="images/work-8.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
-            </div>
-          </div>
+        <div class="filter-hover">
+          <h5>HTML+CSS+YS</h5>
+          <a href="images/portfolio/html2_cr.png" class="filter-popup" data-effect="mfp-zoom-in"></a>
         </div>
       </div>
     </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 mix ux_ui">
+      <div class="filter-box">
+        <div class="filter-image">
+          <img src="images/portfolio/html3_cr.png" alt="HTML+CSS+YS" />
+        </div>
+        <div class="filter-hover">
+          <a href="http://vvebdes.pp.ua/pfsm/">
+            <h5>HTML+CSS+YS</h5>
+          </a>
+          <a href="images/portfolio/html3_cr.png" class="filter-popup" data-effect="mfp-zoom-in"></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 mix yoomla">
+      <div class="filter-box">
+        <div class="filter-image">
+          <img src="images/portfolio/Joomla.png" alt="Yoomla" />
+        </div>
+        <div class="filter-hover">
+          <h5>Yoomla</h5>
+          <a href="images/portfolio/Joomla.png" class="filter-popup" data-effect="mfp-zoom-in"></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 mix ux_ui wordpress">
+      <div class="filter-box">
+        <div class="filter-image">
+          <img src="images/portfolio/konstr1_cr.png" alt="Конструирование" />
+        </div>
+        <div class="filter-hover">
+          <h5>Construction</h5>
+          <a href="images/portfolio/konstr1_cr.png" class="filter-popup" data-effect="mfp-zoom-in"></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 mix web_design graphics">
+      <div class="filter-box">
+        <div class="filter-image">
+          <img src="images/portfolio/rusalochka1_cr.png" alt="Русалочка" />
+        </div>
+        <div class="filter-hover">
+          <h5>Mermaid</h5>
+          <a href="images/portfolio/rusalochka1_cr.png" class="filter-popup" data-effect="mfp-zoom-in"></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 mix wordpress">
+      <div class="filter-box">
+        <div class="filter-image">
+          <img src="images/portfolio/wp_cr.png" alt="Wordpress" />
+        </div>
+        <div class="filter-hover">
+          <h5>Wordpress</h5>
+          <a href="images/portfolio/wp_cr.png" class="filter-popup" data-effect="mfp-zoom-in"></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 mix html_css_ys coding">
+      <div class="filter-box">
+        <div class="filter-image">
+          <img src="images/Image480_364r.png" alt="Фото" />
+        </div>
+        <div class="filter-hover">
+          <h5>This site</h5>
+          <a href="images/Image480_364r.png" class="filter-popup" data-effect="mfp-zoom-in"></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-3 mix graphics">
+      <div class="filter-box">
+        <div class="filter-image">
+          <img src="images/work-8.jpg" alt="Фото" />
+        </div>
+        <div class="filter-hover">
+          <h5>Photo</h5>
+          <a href="images/work-8.jpg" class="filter-popup" data-effect="mfp-zoom-in"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
   </section>
   <!-- Portfolio-Area / -->
 
@@ -320,9 +339,9 @@
       <div class="row">
         <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
           <div class="page-title text-center">
-            <h2 class="title">Our Best Service</h2>
+            <h2 class="title">My services</h2>
             <p>
-              There are many variations of passages of Lorem Ipsum available.
+              Briefly about what I can interest you
             </p>
           </div>
         </div>
@@ -337,9 +356,9 @@
               </a>
             </div>
             <div class="box-text">
-              <h4>Financial Planning</h4>
+              <h4>Turnkey Websites</h4>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                Turnkey websites on HTML CSS YS and SMS WordPress.
               </p>
             </div>
           </div>
@@ -353,9 +372,9 @@
               </a>
             </div>
             <div class="box-text">
-              <h4>Digital Marketing</h4>
+              <h4>Website layout</h4>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                Layout of sites from layouts PSD or Figma, pulling on WordPress
               </p>
             </div>
           </div>
@@ -369,9 +388,9 @@
               </a>
             </div>
             <div class="box-text">
-              <h4>Market Analysis</h4>
+              <h4>Other site work</h4>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                Details when ordering for website development
               </p>
             </div>
           </div>
@@ -385,9 +404,9 @@
               </a>
             </div>
             <div class="box-text">
-              <h4>Graphics Designing</h4>
+              <h4>Graphics and design</h4>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                Logo, photos and all graphic elements of the site
               </p>
             </div>
           </div>
@@ -409,7 +428,7 @@
 
         <div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1 wow fadeInUp">
           <div class="page-title">
-            <h2 class="title">Why Choose Us?</h2>
+            <h2 class="title">Why do you need to work with me?</h2>
             <ul class="tabs-list-2">
               <li class="active">
                 <a data-toggle="pill" href="#our_mission">Our Mission</a>
@@ -506,9 +525,55 @@
       <div class="row">
         <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
           <div class="page-title text-center">
-            <h2 class="title">Our Working Process</h2>
+            <h2 class="title">Our cooperation plan</h2>
             <p>
-              There are many variations of passages of lorem ipsum avalable
+              There are many options, but everything can be roughly reduced to one
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row process text-center">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="single-process">
+            <div class="process-icon">
+              <i class="icofont icofont-users-alt-1"></i>
+            </div>
+            <h3>Discussion</h3>
+            <p>
+              Preliminary agreement on all conditions and nuances of the project
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="single-process">
+            <div class="process-icon">
+              <i class="icofont icofont-pie"></i>
+            </div>
+            <h3>Prototyping</h3>
+            <p>
+              Choosing templates or sites as prototypes and project examples
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="single-process">
+            <div class="process-icon">
+              <i class="icofont icofont-brainstorming"></i>
+            </div>
+            <h3>Sketch</h3>
+            <p>
+              Layout of pages and arrangement of blocks of the site
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="single-process">
+            <div class="process-icon">
+              <i class="icofont icofont-users-alt-1"></i>
+            </div>
+            <h3>Statement</h3>
+            <p>
+              Working out details and fixing site changes
             </p>
           </div>
         </div>
@@ -519,22 +584,9 @@
             <div class="process-icon">
               <i class="icofont icofont-pie"></i>
             </div>
-            <h3>Investigation</h3>
+            <h3>Design</h3>
             <p>
-              There are many varia tions of passages of Lorem Ipsum available,
-              but the majority.
-            </p>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="single-process">
-            <div class="process-icon">
-              <i class="icofont icofont-users-alt-1"></i>
-            </div>
-            <h3>Consultant</h3>
-            <p>
-              There are many varia tions of passages of Lorem Ipsum available,
-              but the majority.
+             Website page design in a graphic editor with adaptive
             </p>
           </div>
         </div>
@@ -543,10 +595,9 @@
             <div class="process-icon">
               <i class="icofont icofont-brainstorming"></i>
             </div>
-            <h3>Planning</h3>
+            <h3>Coding</h3>
             <p>
-              There are many varia tions of passages of Lorem Ipsum available,
-              but the majority.
+             Site development stage and discussion of developments and edits
             </p>
           </div>
         </div>
@@ -555,18 +606,26 @@
             <div class="process-icon">
               <i class="icofont icofont-settings-alt"></i>
             </div>
-            <h3>Working</h3>
+            <h3>Hosting</h3>
             <p>
-              There are many varia tions of passages of Lorem Ipsum available,
-              but the majority.
+              Export and check the site on the selected hosting
             </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="single-process">
+            <div class="process-icon">
+              <i class="icofont icofont-users-alt-1"></i>
+            </div>
+            <h3>Completion</h3>
+            <p>Calculation and receipt of a finished website with sources</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- <!-- Price-Area -->
+  <!--Price-Area -->
   -->
   <!-- <section class="section-padding gray-bg" id="price-area"> -->
   <!-- <div class="container"> -->
@@ -698,10 +757,10 @@
   <!-- </div> -->
   <!-- </div> -->
   <!-- </section> -->
-  <!-- <!-- Price-Area -->
+  <!--  Price-Area -->
   -->
 
-  <!-- <!-- Team-Area -->
+  <!-- Team-Area -->
   -->
   <!-- <section class="section-padding" id="team-area"> -->
   <!-- <div class="container"> -->
@@ -793,7 +852,7 @@
   <!-- </div> -->
   <!-- </div> -->
   <!-- </section> -->
-  <!-- <!-- Team-Area / -->
+  <!-- Team-Area / -->
   -->
 
   <section class="section-padding gray-bg">
@@ -996,10 +1055,9 @@
             </div>
           </div>
         </div>
-        <div class="map-responsive">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164152.7702308267!2d36.14539684348879!3d49.99472733152055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a09f63ab0f8b%3A0x2d4c18681aa4be0a!2z0KXQsNGA0YzQutC-0LIsINCl0LDRgNGM0LrQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsINCj0LrRgNCw0LjQvdCw!5e0!3m2!1sru!2snl!4v1633181456567!5m2!1sru!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <div class="map-responsive">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164152.7702308267!2d36.14539684348879!3d49.99472733152055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a09f63ab0f8b%3A0x2d4c18681aa4be0a!2z0KXQsNGA0YzQutC-0LIsINCl0LDRgNGM0LrQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsINCj0LrRgNCw0LjQvdCw!5e0!3m2!1sru!2snl!4v1633181456567!5m2!1sru!2snl" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
-      
     </div>
     </div>
     
