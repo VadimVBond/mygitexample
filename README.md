@@ -1,10 +1,10 @@
-<h1>Мой сайт на GIT для показа моего опыта работы с GitHub</h1>
+<h1>Мой сайт для показа моего опыта работы с GitHub</h1>
 
 <p>
-	<img src="https://raw.githubusercontent.com/agragregra/oh5/master/app/images/src/preview.jpg" alt="Start HTML Template">
+	<img src="https://github.com/VadimVBond/mygitexample/blob/master/images/preview.png" alt="Site GitHub">
 </p>
 
-<p>Автор сборки: <a href="https://webdesign-master.ru" target="_blank">https://webdesign-master.ru</a></p>
+<p>Автор сборки: <a href="http://vvebdes.pp.ua/pfsm/" target="_blank">VadimVB</a></p>
 
 <h2>Что вошло в сборку:</h2>
 
