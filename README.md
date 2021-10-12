@@ -5,6 +5,7 @@
 </p>
 
 <p>Автор сборки: <a href="http://vvebdes.pp.ua/pfsm/" target="_blank">VadimVB</a></p>
+<p>Cайт представлен на трёх языках UA, RU и EN. Смотрите! )</p>
 
 <h2>Что вошло в сборку:</h2>
 
@@ -14,11 +15,12 @@
 	<li>Прелоадер для страниц </li>
 	<li><h4>Файлы CSS </h4>	</li>
 	<li>fonts - Шрифт glyphicons-halflings-regular (eot, woff, ttf);</li>
-	<li>img/favicon - подключенные в index.html Apple-совместимые по размеру фавиконки (для примера).</li><li>Плавный скролл страниц в браузере Chrome (scrollUp);</li>
+	<li>images/favicon - подключенные в index.html Apple-совместимые по размеру фавиконки (для примера).</li>
+	<li>Плавный скролл страниц в браузере Chrome (scrollUp);</li>
 	<li><h4>js/common.js - пользовательский файл скриптов, включающий:</h4></li>
 	<li><h4>Включены следующие базовые плагины (/libs):</h4>
 		<ul>
-			<li><a href="http://daneden.github.io/animate.css/" target="_blank">Animate.css</a> / <a href="http://webdesign-master.ru" target="_blank">animate-css.js</a> / <a href="http://imakewebthings.com/waypoints/" target="_blank">Waypoints</a> - плагины для простого добавления анимации на страницы при скролле;</li>
+			<li><a href="http://daneden.github.io/animate.css/" target="_blank">animate.css</a> / - плагин для простого добавления анимации на страницы при скролле;</li>
 			<li><a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> - Полная и облегченная (bootstrap-grid.min.css) версия Bootstrap.</li>
 			<li><a href="https://jquery.com" target="_blank">jQuery</a></li>
 			<li><a href="http://modernizr.com" target="_blank">modernizr</a>;</li>
